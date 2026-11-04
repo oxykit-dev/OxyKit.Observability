@@ -25,11 +25,11 @@ tests/OxyKit.Observability.Tests/
 - OTel packages live **only** in `OxyKit.OpenTelemetry` — never add them to `OxyKit.Observability`
 - Pin `OpenTelemetry.*` at suite shared version (`AGENTS.md` root)
 
+## Packaging
+
+- Both projects packable · versions must match · Trusted Publishing: [`docs/NUGET_PUBLISH.md`](docs/NUGET_PUBLISH.md)
+- Workflow: `.github/workflows/release-nuget.yml` (tag `vX.Y.Z`)
+
 ## Suite wiring
 
-Cores under `oxykit.suite` use **ProjectReference** (sibling folder):
-
-- `../OxyKit.Observability/src/OxyKit.Observability/...`
-- `../OxyKit.Observability/src/OxyKit.OpenTelemetry/...` (Mail/Flow)
-
-Compose / Flow CI also need this sibling checkout. **Next:** publish both packages to nuget.org (Trusted Publishing) and switch cores to `PackageReference`.
+Cores use **NuGet** `PackageReference` (`OxyKit.Observability` / `OxyKit.OpenTelemetry`). Local sibling ProjectReference only when actively developing these libs.
