@@ -19,6 +19,8 @@ src/OxyKit.OpenTelemetry/     # optional OTLP host wiring
 tests/OxyKit.Observability.Tests/
 ```
 
+Ignore `bin/`, `obj/`, `output/`, `TestResults/`, `artifacts/`.
+
 ## Constraints
 
 - Keep APIs tiny: `AddOxyKitJsonConsole`, `UseOxyKitCorrelation`, `AddOxyKitOpenTelemetry`
