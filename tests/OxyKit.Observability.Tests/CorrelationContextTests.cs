@@ -1,5 +1,4 @@
 using FluentAssertions;
-using OxyKit.Observability;
 
 namespace OxyKit.Observability.Tests;
 
