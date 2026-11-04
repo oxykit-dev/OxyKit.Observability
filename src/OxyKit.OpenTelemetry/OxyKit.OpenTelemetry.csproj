@@ -6,13 +6,14 @@
     <RootNamespace>OxyKit.OpenTelemetry</RootNamespace>
     <Description>Optional OpenTelemetry OTLP wiring for OxyKit ASP.NET Core hosts (off by default).</Description>
     <PackageId>OxyKit.OpenTelemetry</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>OxyKit</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://oxykit.dev</PackageProjectUrl>
     <RepositoryUrl>https://github.com/oxykit-dev/OxyKit.Observability</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>oxykit;opentelemetry;otlp;observability</PackageTags>
+    <PackageIcon>images/icon.png</PackageIcon>
     <IsPackable>true</IsPackable>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <IncludeSymbols>true</IncludeSymbols>
@@ -21,6 +22,7 @@
 
   <ItemGroup>
     <None Include="..\..\docs\nuget\OxyKit.OpenTelemetry.md" Pack="true" PackagePath="README.md" />
+    <None Include="..\..\docs\nuget\icon.png" Pack="true" PackagePath="images/" />
   </ItemGroup>
 
   <ItemGroup>
