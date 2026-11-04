@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>OxyKit.Observability</RootNamespace>
+    <Description>JSON console logging and X-Correlation-Id helpers for OxyKit ASP.NET Core hosts.</Description>
+    <PackageId>OxyKit.Observability</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>OxyKit</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://oxykit.dev</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/oxykit-dev/OxyKit.Observability</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>oxykit;logging;correlation;observability</PackageTags>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

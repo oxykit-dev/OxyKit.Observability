@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OxyKit.Observability/OxyKit.Observability.csproj" />
+    <Project Path="src/OxyKit.OpenTelemetry/OxyKit.OpenTelemetry.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OxyKit.Observability.Tests/OxyKit.Observability.Tests.csproj" />
+  </Folder>
+</Solution>
