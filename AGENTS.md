@@ -9,7 +9,7 @@ Two packable libs for suite HTTP hosts. **No Serilog / Sentry.** Product meters 
 | Project | Consumers |
 |---------|-----------|
 | `OxyKit.Observability` | Render, Mail, Flow |
-| `OxyKit.OpenTelemetry` | Mail, Flow only (keep off Render for AOT/size) |
+| `OxyKit.OpenTelemetry` | Mail, Flow only (keep off Render for size) |
 
 ## Layout
 
